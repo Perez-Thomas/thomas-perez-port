@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 55px;
 }
 
 .App-logo {
@@ -35,4 +36,142 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* CONTINUE ADDING MY OWN CSS BELOW */
+
+input {
+  color:"white";
+  background-color: "white";
+}
+
+.BannerImage{
+  width: 100%;
+}
+
+/* skillsBar */
+.skillsBar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+  width: 100vw;
+}
+.skills{
+  display: grid;
+  width: 50%;
+  /* center image */
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.MyName{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.MyStory{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+.ButtonsToClick{
+  padding-bottom: 10%;
+}
+
+/* Project Tiles Styling */
+.tileContainer{
+  margin-bottom: 10%;
+  background-color: white;
+}
+.portfolioTitle{
+  padding-top: 10%;
+  padding-bottom: 5%;
+  color: black;
+}
+.portfolioDescription{
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.tiles{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.tile{
+  padding: 5%;
+}
+.tileImage{
+  padding: 5%;
+  margin-top: 10%;
+  border-radius: .25em;
+
+}
+.tileImage:hover {
+  transition: transform .7s; /* Animation */
+  transform: scale(1.25); 
+  border-radius: .5em;
+}
+.tileButton{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/* First Project - Row */
+.firstProject{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5%;
+  place-items: center;
+}
+.BannerImage{
+  border-radius: .5em;
+}
+.firstProjectDescription{
+  padding-left: 5%;
+  color: black;
+}
+
+/* About Me section */
+.MyInterests{
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+.myInterestsDescriptions{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 5%;
+}
+.photography{
+  padding-left: 5%;
+  padding-right: 2.5%;
+}
+.videography{
+  padding-left: 2.5%;
+  padding-right: 5%;
+}
+
+/* Form Styling */
+.signUpForm{
+  padding: 5%;
+  margin: 5%;
+  background-color: white;
+  border-radius: .5em;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.callToAction{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+/* Footer Styling */
+.footerBar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 50px;
 }
