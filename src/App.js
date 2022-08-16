@@ -102,7 +102,7 @@ function App() {
           </Button>
         </ButtonGroup>
 
-        {/* 1st Row of Apps */}
+        {/* 3-2-1 Rows of Apps */}
         <div className="tileContainer">
           <Typography variant="h2" component="div" className="portfolioTitle">
             Portfolio
@@ -115,33 +115,98 @@ function App() {
           </p>
           <div className="tiles">
             <div className="tileImage">
-              <img src={BannerImage} alt="logo" className="BannerImage" />
+              <a href="https://algebra-quiz-app.netlify.app/">
+                <img
+                  src={BannerImage}
+                  href="default.asp"
+                  alt="logo"
+                  className="ProjectImage"
+                />
+              </a>
+              <p>
+                <b>Algebra Diagnostic</b>
+              </p>
+              <p>
+                Users take a diagnostic exam that allows them to see what
+                academic standards they are weak in. Once they know which
+                standards they are weak in, you can begin studying to improve on
+                those standards. This is a great tool for high school math
+                teachers.
+              </p>
             </div>
             <div className="tileImage">
-              <img src={BannerImage} alt="logo" className="BannerImage" />
+              <a href="https://retrogamecorner.netlify.app">
+                <img src={BannerImage} alt="logo" className="ProjectImage" />
+              </a>
+              <p>
+                <p>
+                  <b>Retro Gaming Corner</b>
+                </p>
+                An online repository of retro gaming consoles. Here you will
+                find all home gaming consoles. Each thumbnail works as a direct
+                link to its Wikipedia article.
+              </p>
             </div>
             <div className="tileImage">
-              <img src={BannerImage} alt="logo" className="BannerImage" />
+              <a href="">
+                <img src={BannerImage} alt="logo" className="ProjectImage" />
+              </a>
+              <p>
+                <p>
+                  <b>Algebra Diagnostic</b>
+                </p>
+                Word Word Word Word Word Word Word Word Word Word Word Word Word
+                Word Word Word Word Word Word Word Word Word Word Word Word Word
+                Word Word Word Word Word Word Word Word Word
+              </p>
+            </div>
+            <div className="tileImage">
+              <a href="">
+                <img src={BannerImage} alt="logo" className="ProjectImage" />
+              </a>
+              <p>
+                <p>
+                  <b>Jacob's Fitness Studio</b>
+                </p>
+                Word Word Word Word Word Word Word Word Word Word Word Word Word
+                Word Word Word Word Word Word Word Word Word Word Word Word Word
+                Word Word Word Word Word Word Word Word Word
+              </p>
+            </div>
+            <div className="tileImage">
+              <a href="">
+                <img src={BannerImage} alt="logo" className="ProjectImage" />
+              </a>
+              <p>
+                <p>
+                  <b>The Barbers Lounge</b>
+                </p>
+                Word Word Word Word Word Word Word Word Word Word Word Word Word
+                Word Word Word Word Word Word Word Word Word Word Word Word Word
+                Word Word Word Word Word Word Word Word Word
+              </p>
+            </div>
+            <div className="tileImage">
+              <a href="">
+                <img src={BannerImage} alt="logo" className="ProjectImage" />
+              </a>
+              <p>
+                <p>
+                  <b>Paystub Calculator</b>
+                </p>
+                Word Word Word Word Word Word Word Word Word Word Word Word Word
+                Word Word Word Word Word Word Word Word Word Word Word Word Word
+                Word Word Word Word Word Word Word Word Word
+              </p>
             </div>
           </div>
           <div className="tiles"></div>
-          {/* 2nd Row of Apps */}
-          <div className="tiles">
-            <div className="tileImage">
-              <img src={BannerImage} alt="logo" className="BannerImage" />
-            </div>
-            <div className="tileImage">
-              <img src={BannerImage} alt="logo" className="BannerImage" />
-            </div>
-            <div className="tileImage">
-              <img src={BannerImage} alt="logo" className="BannerImage" />
-            </div>
-          </div>
-          <div className="tiles"></div>
-
+          {/* 
           <div className="firstProject">
             <div class="BannerImage">
-              <img src={BannerImage} alt="logo" className="BannerImage" />
+              <a href="">
+                <img src={BannerImage} alt="logo" className="ProjectImage" />
+              </a>
             </div>
             <div className="firstProjectDescription">
               <div className="firstAppTitle">Fitness Tracker</div> Enter the
@@ -160,13 +225,17 @@ function App() {
               how much they were paying in taxes and benefits.
             </div>
             <div class="BannerImage">
-              <img src={BannerImage} alt="logo" className="BannerImage" />
+              <a href="">
+                <img src={BannerImage} alt="logo" className="ProjectImage" />
+              </a>
             </div>
           </div>
 
           <div className="firstProject">
             <div class="BannerImage">
-              <img src={BannerImage} alt="logo" className="BannerImage" />
+              <a href="">
+                <img src={BannerImage} alt="logo" className="ProjectImage" />
+              </a>
             </div>
             <div className="firstProjectDescription">
               <div className="firstAppTitle">Paystub Calculator</div>I made this
@@ -182,9 +251,11 @@ function App() {
               how much they were paying in taxes and benefits.
             </div>
             <div class="BannerImage">
-              <img src={BannerImage} alt="logo" className="BannerImage" />
+              <a href="">
+                <img src={BannerImage} alt="logo" className="ProjectImage" />
+              </a>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* <a
@@ -267,7 +338,9 @@ function App() {
         <div className="footerBar">
           <div></div>
           <div>
-            <p>© 2022 Perez Web Development, LLC</p>
+            <p>
+              <b>© 2022 Perez Web Development, LLC</b>
+            </p>
             <p>"Where the client comes first."</p>
           </div>
           <div></div>

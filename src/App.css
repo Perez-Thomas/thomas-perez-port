@@ -47,6 +47,20 @@ input {
 
 .BannerImage {
   width: 100%;
+  border-radius: 0.5em;
+}
+.ProjectImage {
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+.ProjectImage:hover {
+  width: 100%;
+  border-radius: 0.5em;
+
+  transition: transform 0.7s;
+  transform: scale(1.25);
+  border-radius: 0.53em;
 }
 
 /* skillsBar */
@@ -103,6 +117,16 @@ input {
 @media screen and (max-width: 700px) {
   .tiles {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .tiles {
+    display: grid;
     grid-template-columns: 1fr;
     background-color: white;
     color: black;
@@ -120,11 +144,7 @@ input {
   margin-top: 10%;
   border-radius: 0.25em;
 }
-.tileImage:hover {
-  transition: transform 0.7s; /* Animation */
-  transform: scale(1.25);
-  border-radius: 0.5em;
-}
+
 .tileButton {
   padding-top: 10%;
   padding-bottom: 10%;
@@ -142,9 +162,7 @@ input {
   padding: 5%;
   place-items: center;
 }
-.BannerImage {
-  border-radius: 0.5em;
-}
+
 .firstProjectDescription {
   padding-left: 5%;
   color: black;
