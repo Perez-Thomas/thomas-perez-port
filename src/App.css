@@ -40,6 +40,10 @@
 
 /* CONTINUE ADDING MY OWN CSS BELOW */
 
+.MyName {
+  display: flex;
+  justify-content: center;
+}
 input {
   color: "white";
   background-color: "white";
