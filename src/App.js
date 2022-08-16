@@ -24,7 +24,6 @@ import Button from "@mui/material/Button";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
-// import WebIcon from "@mui/icons-material/Web";
 
 // importing form/text field
 import TextField from "@mui/material/TextField";
@@ -148,7 +147,7 @@ function App() {
               </p>
             </div>
             <div className="tileImage">
-              <a href="">
+              <a href="https://algebra-quiz-app.netlify.app">
                 <img src={BannerImage} alt="logo" className="ProjectImage" />
               </a>
               <p>
@@ -161,7 +160,7 @@ function App() {
               </p>
             </div>
             <div className="tileImage">
-              <a href="">
+              <a href="https://jacobsfitnessstudio.netlify.app">
                 <img src={BannerImage} alt="logo" className="ProjectImage" />
               </a>
               <p>
@@ -174,7 +173,7 @@ function App() {
               </p>
             </div>
             <div className="tileImage">
-              <a href="">
+              <a href="https://culture-screen.netlify.app">
                 <img src={BannerImage} alt="logo" className="ProjectImage" />
               </a>
               <p>
@@ -187,7 +186,7 @@ function App() {
               </p>
             </div>
             <div className="tileImage">
-              <a href="">
+              <a href="https://newyork-paystub-calculator.netlify.app">
                 <img src={BannerImage} alt="logo" className="ProjectImage" />
               </a>
               <p>
@@ -204,9 +203,7 @@ function App() {
           {/* 
           <div className="firstProject">
             <div class="BannerImage">
-              <a href="">
                 <img src={BannerImage} alt="logo" className="ProjectImage" />
-              </a>
             </div>
             <div className="firstProjectDescription">
               <div className="firstAppTitle">Fitness Tracker</div> Enter the
@@ -225,17 +222,13 @@ function App() {
               how much they were paying in taxes and benefits.
             </div>
             <div class="BannerImage">
-              <a href="">
                 <img src={BannerImage} alt="logo" className="ProjectImage" />
-              </a>
             </div>
           </div>
 
           <div className="firstProject">
             <div class="BannerImage">
-              <a href="">
                 <img src={BannerImage} alt="logo" className="ProjectImage" />
-              </a>
             </div>
             <div className="firstProjectDescription">
               <div className="firstAppTitle">Paystub Calculator</div>I made this
