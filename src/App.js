@@ -43,9 +43,7 @@ function App() {
           <Toolbar>
             <ComputerIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
             <IconButton></IconButton>
-            <Typography variant="h4">
-              THOMAS PEREZ <font size="+1"> front-end developer</font>
-            </Typography>
+            <Typography variant="h4">THOMAS PEREZ</Typography>
           </Toolbar>
         </AppBar>
         <div>
