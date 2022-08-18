@@ -9,8 +9,14 @@ import IconButton from "@mui/material/IconButton";
 // import MenuIcon from '@mui/icons-material/Menu';
 import ComputerIcon from "@mui/icons-material/Computer";
 
-// banner photo
+// images
 import BannerImage from "./images/myDesk.jpg";
+import AlgebraAppImg from "./images/1.algebra-app.jpg";
+import RetroCornerImg from "./images/2.retro-corner.jpg";
+import JacobsFitnessImg from "./images/3.jacobs-fitness-studio.jpg";
+import PayStubCalculatorImg from "./images/4.paystub-calculator.jpg";
+import CultureScreenPhotosImg from "./images/5.culture-screen-photography.jpg";
+import BarbershopLoungeImg from "./images/6.barbershop.jpg";
 
 // skillsBar Images
 import HTMLimage from "./images/html.png";
@@ -114,7 +120,7 @@ function App() {
             <div className="tileImage">
               <a href="https://algebra-quiz-app.netlify.app/">
                 <img
-                  src={BannerImage}
+                  src={AlgebraAppImg}
                   href="default.asp"
                   alt="logo"
                   className="ProjectImage"
@@ -133,7 +139,7 @@ function App() {
             </div>
             <div className="tileImage">
               <a href="https://retrogamecorner.netlify.app">
-                <img src={BannerImage} alt="logo" className="ProjectImage" />
+                <img src={RetroCornerImg} alt="logo" className="ProjectImage" />
               </a>
               <p>
                 <p>
@@ -146,7 +152,11 @@ function App() {
             </div>
             <div className="tileImage">
               <a href="https://algebra-quiz-app.netlify.app">
-                <img src={BannerImage} alt="logo" className="ProjectImage" />
+                <img
+                  src={JacobsFitnessImg}
+                  alt="logo"
+                  className="ProjectImage"
+                />
               </a>
               <p>
                 <p>
@@ -159,7 +169,11 @@ function App() {
             </div>
             <div className="tileImage">
               <a href="https://jacobsfitnessstudio.netlify.app">
-                <img src={BannerImage} alt="logo" className="ProjectImage" />
+                <img
+                  src={PayStubCalculatorImg}
+                  alt="logo"
+                  className="ProjectImage"
+                />
               </a>
               <p>
                 <p>
@@ -172,7 +186,11 @@ function App() {
             </div>
             <div className="tileImage">
               <a href="https://culture-screen.netlify.app">
-                <img src={BannerImage} alt="logo" className="ProjectImage" />
+                <img
+                  src={CultureScreenPhotosImg}
+                  alt="logo"
+                  className="ProjectImage"
+                />
               </a>
               <p>
                 <p>
@@ -185,7 +203,11 @@ function App() {
             </div>
             <div className="tileImage">
               <a href="https://newyork-paystub-calculator.netlify.app">
-                <img src={BannerImage} alt="logo" className="ProjectImage" />
+                <img
+                  src={BarbershopLoungeImg}
+                  alt="logo"
+                  className="ProjectImage"
+                />
               </a>
               <p>
                 <p>
