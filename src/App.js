@@ -21,6 +21,10 @@ import Photography from "./images/photography.jpg";
 import Videography from "./images/videography.jpg";
 import Camera from "./images/camera.png";
 
+// documents
+import Resume from "./documents/resumeThomasPerez.pdf";
+import CoverLetter from "./documents/coverLetterThomasPerez.pdf";
+
 // skillsBar Images
 import HTMLimage from "./images/html.png";
 import CSSimage from "./images/css3.png";
@@ -85,27 +89,36 @@ function App() {
           My name is Thomas Perez. I am a front-end web developer. I enjoy
           building websites, widgets and web applications. The main technologies
           I use are: HTML, CSS, Javascript, and React. I also use WordPress,
-          MaterialUI, and Bootstrap depending on the needs of my clients.
+          MaterialUI, Tailwind, and Bootstrap depending on the needs of my
+          clients.
         </p>
 
         <ButtonGroup className="ButtonsToClick">
-          <Button
-            startIcon={<YouTubeIcon />}
-            size="large"
-            variant="contained"
-            color="primary"
-          >
-            Resume
-          </Button>
+          <a href="./documents/resumeThomasPerez.pdf" download={Resume}>
+            <Button
+              // <a href="path_to_file" download="proposed_file_name">Download</a>
 
-          <Button
-            startIcon={<InstagramIcon />}
-            size="large"
-            variant="contained"
-            color="secondary"
+              startIcon={<YouTubeIcon />}
+              size="large"
+              variant="contained"
+              color="primary"
+            >
+              Resume
+            </Button>
+          </a>
+          <a
+            href="./documents/coverLetterThomasPerez.pdf"
+            download={CoverLetter}
           >
-            Cover Letter
-          </Button>
+            <Button
+              startIcon={<InstagramIcon />}
+              size="large"
+              variant="contained"
+              color="secondary"
+            >
+              Cover Letter
+            </Button>
+          </a>
         </ButtonGroup>
 
         {/* 3-2-1 Rows of Apps */}
@@ -287,7 +300,7 @@ function App() {
           my interests and hobbies.
         </p>
         <div>
-          <img src={Camera} class="camera-picture" />
+          <img src={Camera} class="camera-picture" alt="camera-png" />
         </div>
         <div className="myInterestsDescriptions">
           <div className="photography">
