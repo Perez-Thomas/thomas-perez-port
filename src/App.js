@@ -127,14 +127,13 @@ function App() {
                 />
               </a>
               <p>
-                <b>Algebra Diagnostic</b>
+                <b>Algebra Diagnostic App</b>
               </p>
               <p>
-                Users take a diagnostic exam that allows them to see what
-                academic standards they are weak in. Once they know which
-                standards they are weak in, you can begin studying to improve on
-                those standards. This is a great tool for high school math
-                teachers.
+                Students take a quick diagnostic exam that allows them to see
+                what academic standards they are weak in. Then students can
+                begin studying to improve on those weaknesses. Created using
+                vanilla javascript.
               </p>
             </div>
             <div className="tileImage">
@@ -160,11 +159,11 @@ function App() {
               </a>
               <p>
                 <p>
-                  <b>Algebra Diagnostic</b>
+                  <b>Jacob's Fitness Studio</b>
                 </p>
-                Word Word Word Word Word Word Word Word Word Word Word Word Word
-                Word Word Word Word Word Word Word Word Word Word Word Word Word
-                Word Word Word Word Word Word Word Word Word
+                Website for a NYC based personal trainer. Constructed using
+                HTML, CSS, Javascript, and Tailwind CSS. Animations such as the
+                slide in, card rotation and fade in are directly from Tailwind.
               </p>
             </div>
             <div className="tileImage">
@@ -177,32 +176,15 @@ function App() {
               </a>
               <p>
                 <p>
-                  <b>Jacob's Fitness Studio</b>
+                  <b>New York City Paystub Calculator</b>
                 </p>
-                Word Word Word Word Word Word Word Word Word Word Word Word Word
-                Word Word Word Word Word Word Word Word Word Word Word Word Word
-                Word Word Word Word Word Word Word Word Word
+                Single page app that calculates the total dollar amount new
+                yorkers pay in taxes, social security, and medical insurance.
+                Created using vanilla javascript.
               </p>
             </div>
             <div className="tileImage">
               <a href="https://culture-screen.netlify.app">
-                <img
-                  src={CultureScreenPhotosImg}
-                  alt="logo"
-                  className="ProjectImage"
-                />
-              </a>
-              <p>
-                <p>
-                  <b>The Barbers Lounge</b>
-                </p>
-                Word Word Word Word Word Word Word Word Word Word Word Word Word
-                Word Word Word Word Word Word Word Word Word Word Word Word Word
-                Word Word Word Word Word Word Word Word Word
-              </p>
-            </div>
-            <div className="tileImage">
-              <a href="https://newyork-paystub-calculator.netlify.app">
                 <img
                   src={BarbershopLoungeImg}
                   alt="logo"
@@ -211,11 +193,28 @@ function App() {
               </a>
               <p>
                 <p>
-                  <b>Paystub Calculator</b>
+                  <b>The Barbers Lounge</b>
                 </p>
-                Word Word Word Word Word Word Word Word Word Word Word Word Word
-                Word Word Word Word Word Word Word Word Word Word Word Word Word
-                Word Word Word Word Word Word Word Word Word
+                This is a basic website I created for a barbershop. I did not
+                use a library or framework. Its also one of my earlier projects.
+                This site was created using html, css, and javascript.
+              </p>
+            </div>
+            <div className="tileImage">
+              <a href="https://newyork-paystub-calculator.netlify.app">
+                <img
+                  src={CultureScreenPhotosImg}
+                  alt="logo"
+                  className="ProjectImage"
+                />
+              </a>
+              <p>
+                <p>
+                  <b>Culture Screen Photo Gallery</b>
+                </p>
+                Here I created a website using html css javascript, and the aos
+                animations library. It showcases a collection of images set up
+                using mainly css grid and on hover animations.
               </p>
             </div>
           </div>
@@ -281,16 +280,16 @@ function App() {
         </a> */}
         <Typography variant="h3">About Me</Typography>
         <p className="MyInterests">
-          I am a husband, a father, and I like to code. I also enjoy learning
-          new things. Here are some of my interests and hobbies.
+          I love to code. I also enjoy learning above all else. Here are some of
+          my interests and hobbies.
         </p>
 
         <div className="myInterestsDescriptions">
           <div className="photography">
             <InstagramIcon /> Photography
             <p>
-              I love capturing photos that remind me of where I am and where
-              I've been.
+              I love capturing photos and respect how powerful they can be at
+              conveying a message.
             </p>
             <img src={BannerImage} alt="logo" className="BannerImage" />
           </div>

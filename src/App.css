@@ -99,6 +99,7 @@ input {
 .tileContainer {
   margin-bottom: 10%;
   background-color: white;
+  font-size: large;
 }
 .portfolioTitle {
   padding-top: 10%;
@@ -128,7 +129,7 @@ input {
     padding-right: 10%;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .tiles {
     display: grid;
     grid-template-columns: 1fr;
