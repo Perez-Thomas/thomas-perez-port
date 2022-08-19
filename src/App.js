@@ -17,6 +17,9 @@ import JacobsFitnessImg from "./images/3.jacobs-fitness-studio.jpg";
 import PayStubCalculatorImg from "./images/4.paystub-calculator.jpg";
 import CultureScreenPhotosImg from "./images/5.culture-screen-photography.jpg";
 import BarbershopLoungeImg from "./images/6.barbershop.jpg";
+import Photography from "./images/photography.jpg";
+import Videography from "./images/videography.jpg";
+import Camera from "./images/camera.png";
 
 // skillsBar Images
 import HTMLimage from "./images/html.png";
@@ -283,22 +286,26 @@ function App() {
           I love to code. I also enjoy learning above all else. Here are some of
           my interests and hobbies.
         </p>
-
+        <div>
+          <img src={Camera} class="camera-picture" />
+        </div>
         <div className="myInterestsDescriptions">
           <div className="photography">
             <InstagramIcon /> Photography
             <p>
               I love capturing photos and respect how powerful they can be at
-              conveying a message.
+              conveying a message. Images connect us to each other in ways words
+              cannot express.
             </p>
-            <img src={BannerImage} alt="logo" className="BannerImage" />
+            <img src={Photography} alt="logo" className="BannerImage" />
           </div>
           <div className="videography">
             <YouTubeIcon /> Videography
             <p>
               Videos allow us to capture an experience like no other medium can.
+              Videos provide us the opportunity to live an experience.
             </p>
-            <img src={BannerImage} alt="logo" className="BannerImage" />
+            <img src={Videography} alt="logo" className="BannerImage" />
           </div>
         </div>
 
