@@ -307,8 +307,7 @@ function App() {
             <InstagramIcon /> Photography
             <p>
               I love capturing photos and respect how powerful they can be at
-              conveying a message. Images connect us to each other in ways words
-              cannot express.
+              conveying a message. Images connect us in ways words cannot.
             </p>
             <img src={Photography} alt="logo" className="BannerImage" />
           </div>
