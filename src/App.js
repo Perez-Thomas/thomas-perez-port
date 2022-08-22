@@ -22,8 +22,8 @@ import Videography from "./images/videography.jpg";
 import Camera from "./images/camera.png";
 
 // documents
-import Resume from "./documents/resumeThomasPerez.pdf";
-import CoverLetter from "./documents/coverLetterThomasPerez.pdf";
+// import Resume from "./documents/resumeThomasPerez.pdf";
+// import CoverLetter from "./documents/coverLetterThomasPerez.pdf";
 
 // skillsBar Images
 import HTMLimage from "./images/html.png";
@@ -92,7 +92,7 @@ function App() {
           MaterialUI, Tailwind, and Bootstrap depending on the needs of my
           clients.
         </p>
-
+        {/* 
         <ButtonGroup className="ButtonsToClick">
           <a href="./documents/resumeThomasPerez.pdf" download={Resume}>
             <Button
@@ -119,7 +119,7 @@ function App() {
               Cover Letter
             </Button>
           </a>
-        </ButtonGroup>
+        </ButtonGroup> */}
 
         {/* 3-2-1 Rows of Apps */}
         <div className="tileContainer">
