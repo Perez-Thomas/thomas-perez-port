@@ -34,9 +34,10 @@ import GITHUBimage from "./images/github.png";
 
 // importing Button, Button Group, and Icons
 import Button from "@mui/material/Button";
-import ButtonGroup from "@mui/material/ButtonGroup";
+// import ButtonGroup from "@mui/material/ButtonGroup";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 // importing form/text field
 import TextField from "@mui/material/TextField";
@@ -81,17 +82,33 @@ function App() {
           </div>
         </div>
 
-        <Typography variant="h2" component="div" className="MyName">
-          Thomas Perez
-        </Typography>
+        <div className="myIntro">
+          <Typography variant="h2" component="div" className="MyName">
+            Thomas Perez
+          </Typography>
 
-        <p className="MyStory">
-          My name is Thomas Perez. I am a front-end web developer. I enjoy
-          building websites, widgets and web applications. The main technologies
-          I use are: HTML, CSS, Javascript, and React. I also use WordPress,
-          MaterialUI, Tailwind, and Bootstrap depending on the needs of my
-          clients.
-        </p>
+          <p className="MyStory">
+            My name is Thomas Perez. I am a front-end web developer. I enjoy
+            building websites, widgets and web applications. The main
+            technologies I use are: HTML, CSS, Javascript, and React. I also use
+            WordPress, MaterialUI, Tailwind, and Bootstrap depending on the
+            needs of my clients.
+          </p>
+          <a
+            className="LinkedInButton"
+            href="https://www.linkedin.com/in/thomas-perez-18432812?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bv530ttlaSSCPJ6cD84wgpA%3D%3D"
+          >
+            <Button
+              startIcon={<LinkedInIcon />}
+              size="large"
+              variant="contained"
+              color="primary"
+            >
+              My LinkedIn
+            </Button>
+          </a>
+        </div>
+
         {/* 
         <ButtonGroup className="ButtonsToClick">
           <a href="./documents/resumeThomasPerez.pdf" download={Resume}>

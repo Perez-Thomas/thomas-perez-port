@@ -84,16 +84,17 @@ input {
 }
 .MyName {
   padding-top: 5%;
-  padding-bottom: 5%;
 }
 
 .MyStory {
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 5%;
 }
 .ButtonsToClick {
   padding-bottom: 10%;
+}
+.myIntro {
+  padding-bottom: 5%;
 }
 
 /* Project Tiles Styling */
