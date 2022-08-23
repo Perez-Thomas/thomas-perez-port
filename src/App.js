@@ -58,7 +58,7 @@ function App() {
             <ComputerIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
             <IconButton></IconButton>
             <div className="navbar">
-              <Typography variant="h4" align="center">
+              <Typography variant="h5" align="center">
                 PEREZ WEB DEVELOPMENT
               </Typography>
             </div>
