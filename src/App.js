@@ -57,7 +57,11 @@ function App() {
           <Toolbar>
             <ComputerIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
             <IconButton></IconButton>
-            <Typography variant="h4">THOMAS PEREZ</Typography>
+            <div className="navbar">
+              <Typography variant="h4" align="center">
+                PEREZ WEB DEVELOPMENT
+              </Typography>
+            </div>
           </Toolbar>
         </AppBar>
         <div>
@@ -146,8 +150,7 @@ function App() {
           <p className="portfolioDescription">
             Here are some of my favorite and most recent projects. I have
             altered the designs and removed all client info such as logos and
-            company information. Click on the button below each description for
-            more details.
+            company information. Click on the images below for more details.
           </p>
           <div className="tiles">
             <div className="tileImage">
