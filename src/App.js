@@ -188,7 +188,7 @@ function App() {
               </p>
             </div>
             <div className="tileImage">
-              <a href="https://algebra-quiz-app.netlify.app">
+              <a href="https://jacobsfitnessstudio.netlify.app">
                 <img
                   src={JacobsFitnessImg}
                   alt="logo"
@@ -205,7 +205,7 @@ function App() {
               </p>
             </div>
             <div className="tileImage">
-              <a href="https://jacobsfitnessstudio.netlify.app">
+              <a href="https://newyork-paystub-calculator.netlify.app">
                 <img
                   src={PayStubCalculatorImg}
                   alt="logo"
@@ -222,7 +222,7 @@ function App() {
               </p>
             </div>
             <div className="tileImage">
-              <a href="https://culture-screen.netlify.app">
+              <a href="https://barberslounge.netlify.app">
                 <img
                   src={BarbershopLoungeImg}
                   alt="logo"
@@ -239,7 +239,7 @@ function App() {
               </p>
             </div>
             <div className="tileImage">
-              <a href="https://newyork-paystub-calculator.netlify.app">
+              <a href="https://culture-screen.netlify.app">
                 <img
                   src={CultureScreenPhotosImg}
                   alt="logo"
