@@ -156,25 +156,6 @@ function App() {
           </p>
           <div className="tiles">
             <div className="tileImage">
-              <a href="https://algebra-quiz-app.netlify.app/">
-                <img
-                  src={AlgebraAppImg}
-                  href="default.asp"
-                  alt="logo"
-                  className="ProjectImage"
-                />
-              </a>
-              <p>
-                <b>Algebra Diagnostic App</b>
-              </p>
-              <p>
-                Students take a quick diagnostic exam that allows them to see
-                what academic standards they are weak in. Then students can
-                begin studying to improve on those weaknesses. Created using
-                vanilla javascript.
-              </p>
-            </div>
-            <div className="tileImage">
               <a href="https://retrogamecorner.netlify.app">
                 <img src={RetroCornerImg} alt="logo" className="ProjectImage" />
               </a>
@@ -202,6 +183,43 @@ function App() {
                 Website for a NYC based personal trainer. Constructed using
                 HTML, CSS, Javascript, and Tailwind CSS. Animations such as the
                 slide in, card rotation and fade in are directly from Tailwind.
+              </p>
+            </div>
+            <div className="tileImage">
+              <a href="https://culture-screen.netlify.app">
+                <img
+                  src={CultureScreenPhotosImg}
+                  alt="logo"
+                  className="ProjectImage"
+                />
+              </a>
+              <p>
+                <p>
+                  <b>Culture Screen Photo Gallery</b>
+                </p>
+                Here I created a website using html, css, and javascript.
+                Implemented the css aos animations library. Site showcases a
+                collection of images set up using mainly css grid and on hover
+                animations.
+              </p>
+            </div>
+            <div className="tileImage">
+              <a href="https://algebra-quiz-app.netlify.app/">
+                <img
+                  src={AlgebraAppImg}
+                  href="default.asp"
+                  alt="logo"
+                  className="ProjectImage"
+                />
+              </a>
+              <p>
+                <b>Algebra Diagnostic App</b>
+              </p>
+              <p>
+                Students take a quick diagnostic exam that allows them to see
+                what academic standards they are weak in. Then students can
+                begin studying to improve on those weaknesses. Created using
+                vanilla javascript.
               </p>
             </div>
             <div className="tileImage">
@@ -238,25 +256,7 @@ function App() {
                 This site was created using html, css, and javascript.
               </p>
             </div>
-            <div className="tileImage">
-              <a href="https://culture-screen.netlify.app">
-                <img
-                  src={CultureScreenPhotosImg}
-                  alt="logo"
-                  className="ProjectImage"
-                />
-              </a>
-              <p>
-                <p>
-                  <b>Culture Screen Photo Gallery</b>
-                </p>
-                Here I created a website using html css javascript, and the aos
-                animations library. It showcases a collection of images set up
-                using mainly css grid and on hover animations.
-              </p>
-            </div>
           </div>
-          <div className="tiles"></div>
           {/* 
           <div className="firstProject">
             <div class="BannerImage">
