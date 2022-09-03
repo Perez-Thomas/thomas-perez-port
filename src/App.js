@@ -240,7 +240,7 @@ function App() {
               </p>
             </div>
             <div className="tileImage">
-              <a href="studenttodolist.netlify.app">
+              <a href="https://studenttodolist.netlify.app">
                 <img src={ToDoListAppImg} alt="logo" className="ProjectImage" />
               </a>
               <p>
