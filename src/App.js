@@ -18,7 +18,7 @@ import RetroCornerImg from "./images/2.retro-corner.jpg";
 import JacobsFitnessImg from "./images/3.jacobs-fitness-studio.jpg";
 import PayStubCalculatorImg from "./images/4.paystub-calculator.jpg";
 import CultureScreenPhotosImg from "./images/5.culture-screen-photography.jpg";
-import BarbershopLoungeImg from "./images/6.barbershop.jpg";
+import ToDoListAppImg from "./images/7.todolistapp.jpg";
 import Photography from "./images/photography.jpg";
 import Videography from "./images/videography.jpg";
 import Camera from "./images/camera.png";
@@ -240,20 +240,17 @@ function App() {
               </p>
             </div>
             <div className="tileImage">
-              <a href="https://barberslounge.netlify.app">
-                <img
-                  src={BarbershopLoungeImg}
-                  alt="logo"
-                  className="ProjectImage"
-                />
+              <a href="studenttodolist.netlify.app">
+                <img src={ToDoListAppImg} alt="logo" className="ProjectImage" />
               </a>
               <p>
                 <p>
-                  <b>The Barbers Lounge</b>
+                  <b>Student To Do List</b>
                 </p>
-                This is a basic website I created for a barbershop. I did not
-                use a library or framework. Its also one of my earlier projects.
-                This site was created using html, css, and javascript.
+                This is a basic to do list app I created for students. The app
+                saves the to do list to the devices memory. Its also perfect for
+                professionals who don't want a dedicated app. This app was
+                created using html, css, and javascript.
               </p>
             </div>
           </div>
