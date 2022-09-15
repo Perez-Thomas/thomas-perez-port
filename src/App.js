@@ -373,10 +373,9 @@ function App() {
           </div>
         </div>
         <div className="callToAction">
-          <p>Like what you see?</p>
+          <p>Lets work together</p>
           <p>
-            Then shoot me an email or give me a call so we can discuss how I can
-            build your app or website
+            Send me an email, lets discuss how I can build your app or website.
           </p>
           <p>EMAIL: PerezWebDevelopment@gmail.com</p>
           <p>PHONE: 904-834-1399</p>
