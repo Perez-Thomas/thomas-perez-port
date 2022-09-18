@@ -257,7 +257,9 @@ function App() {
           {/*  */}
           <div className="firstProject">
             <div class="BannerImage">
-              <img src={WeatherAppImg} alt="logo" className="ProjectImage" />
+              <a href="https://weatherize-me.netlify.app">
+                <img src={WeatherAppImg} alt="logo" className="ProjectImage" />
+              </a>
             </div>
             <div className="firstProjectDescription">
               <div className="firstAppTitle">
