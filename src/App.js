@@ -19,6 +19,7 @@ import JacobsFitnessImg from "./images/3.jacobs-fitness-studio.jpg";
 import PayStubCalculatorImg from "./images/4.paystub-calculator.jpg";
 import CultureScreenPhotosImg from "./images/5.culture-screen-photography.jpg";
 import ToDoListAppImg from "./images/7.todolistapp.jpg";
+import WeatherAppImg from "./images/8. weather-app.jpg";
 import Photography from "./images/photography.jpg";
 import Videography from "./images/videography.jpg";
 import Camera from "./images/camera.png";
@@ -120,7 +121,6 @@ function App() {
           <a href="./documents/resumeThomasPerez.pdf" download={Resume}>
             <Button
               // <a href="path_to_file" download="proposed_file_name">Download</a>
-
               startIcon={<YouTubeIcon />}
               size="large"
               variant="contained"
@@ -161,7 +161,7 @@ function App() {
               </a>
               <p>
                 <p>
-                  <b>Retro Gaming Corner</b>
+                  <b>Retro Gaming Corner:</b>
                 </p>
                 An online repository of retro gaming consoles. Here you will
                 find all home gaming consoles. Each thumbnail works as a direct
@@ -178,7 +178,7 @@ function App() {
               </a>
               <p>
                 <p>
-                  <b>Jacob's Fitness Studio</b>
+                  <b>Jacob's Fitness Studio:</b>
                 </p>
                 Website for a NYC based personal trainer. Constructed using
                 HTML, CSS, Javascript, and Tailwind CSS. Animations such as the
@@ -195,7 +195,7 @@ function App() {
               </a>
               <p>
                 <p>
-                  <b>Culture Screen Photo Gallery</b>
+                  <b>Culture Screen Photo Gallery:</b>
                 </p>
                 Here I created a website using html, css, and javascript.
                 Implemented the css aos animations library. Site showcases a
@@ -213,7 +213,7 @@ function App() {
                 />
               </a>
               <p>
-                <b>Algebra Diagnostic App</b>
+                <b>Algebra Diagnostic App:</b>
               </p>
               <p>
                 Students take a quick diagnostic exam that allows them to see
@@ -232,7 +232,7 @@ function App() {
               </a>
               <p>
                 <p>
-                  <b>New York City Paystub Calculator</b>
+                  <b>New York City Paystub Calculator:</b>
                 </p>
                 Single page app that calculates the total dollar amount new
                 yorkers pay in taxes, social security, and medical insurance.
@@ -245,7 +245,7 @@ function App() {
               </a>
               <p>
                 <p>
-                  <b>Student To Do List</b>
+                  <b>Student To Do List:</b>
                 </p>
                 This is a basic to do list app I created for students. The app
                 saves the to do list to the devices memory. Its also perfect for
@@ -254,6 +254,22 @@ function App() {
               </p>
             </div>
           </div>
+          {/*  */}
+          <div className="firstProject">
+            <div class="BannerImage">
+              <img src={WeatherAppImg} alt="logo" className="ProjectImage" />
+            </div>
+            <div className="firstProjectDescription">
+              <div className="firstAppTitle">
+                <b>Weather App:</b>
+              </div>{" "}
+              Enter the name of your city and receive the maximum, minimum, and
+              current temperatures. App consumes the OpenWeatherMapAPI and
+              returns its data.
+            </div>
+          </div>
+          {/*  */}
+
           {/* 
           <div className="firstProject">
             <div class="BannerImage">
@@ -268,7 +284,6 @@ function App() {
               sleep you had.
             </div>
           </div>
-
           <div className="firstProject">
             <div className="firstProjectDescription">
               <div className="firstAppTitle">Paystub Calculator</div>I made this
@@ -279,7 +294,6 @@ function App() {
                 <img src={BannerImage} alt="logo" className="ProjectImage" />
             </div>
           </div>
-
           <div className="firstProject">
             <div class="BannerImage">
                 <img src={BannerImage} alt="logo" className="ProjectImage" />
@@ -290,7 +304,6 @@ function App() {
               how much they were paying in taxes and benefits.
             </div>
           </div>
-
           <div className="firstProject">
             <div className="firstProjectDescription">
               <div className="firstAppTitle">Paystub Calculator</div>I made this
@@ -379,7 +392,6 @@ function App() {
           </p>
           <p>EMAIL: PerezWebDevelopment@gmail.com</p>
           <p>PHONE: 904-834-1399</p>
-          {/* <p>115 Tidecrest Pkwy, Ponte Vedra, FL</p> */}
         </div>
       </header>
 

@@ -160,6 +160,14 @@ input {
   place-items: center;
 }
 
+@media screen and (max-width: 600px) {
+  .firstProject {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 5%;
+  }
+}
+
 .firstProjectDescription {
   padding-left: 5%;
   color: black;
