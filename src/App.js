@@ -147,13 +147,16 @@ function App() {
         {/* 3-2-1 Rows of Apps */}
         <div className="tileContainer">
           <Typography variant="h2" component="div" className="portfolioTitle">
-            Portfolio
+            My Portfolio
           </Typography>
           <p className="portfolioDescription">
             Here are some of my favorite and most recent projects. I have
             altered the designs and removed all client info such as logos and
             company information. Click on the images below for more details.
           </p>
+          <div className="portfolioDescription">
+            <b>Business Websites & Student Apps</b>
+          </div>
           <div className="tiles">
             <div className="tileImage">
               <a href="https://retrogamecorner.netlify.app">
@@ -185,6 +188,7 @@ function App() {
                 slide in, card rotation and fade in are directly from Tailwind.
               </p>
             </div>
+
             <div className="tileImage">
               <a href="https://culture-screen.netlify.app">
                 <img
@@ -198,11 +202,11 @@ function App() {
                   <b>Culture Screen Photo Gallery:</b>
                 </p>
                 Here I created a website using html, css, and javascript.
-                Implemented the css aos animations library. Site showcases a
-                collection of images set up using mainly css grid and on hover
-                animations.
+                Utilizes CSS AOS animations library. Demonstrates gallery of
+                images set up using css grid and on hover animations.
               </p>
             </div>
+
             <div className="tileImage">
               <a href="https://algebra-quiz-app.netlify.app/">
                 <img
@@ -255,6 +259,10 @@ function App() {
             </div>
           </div>
           {/*  */}
+
+          <div className="portfolioDescription">
+            <b>API Consuming Apps</b>
+          </div>
           <div className="firstProject">
             <div class="BannerImage">
               <a href="https://weatherize-me.netlify.app">
