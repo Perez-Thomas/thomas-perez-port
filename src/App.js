@@ -306,10 +306,11 @@ function App() {
               <div className="firstAppTitle">
                 <b>Pokedex App:</b>
               </div>{" "}
-              Enter the name of Pokemon you are interested in learning more
-              about. Once the form is submitted you will receive their ID
-              number, body weight, height. This app consumes the PokeAPI Restful
-              API and returns its data.
+              Enter the name of the Pokemon you are interested in learning more
+              about. Once the form is submitted with the Pokemon's name you'll
+              receive their: photo, identification number, body weight, and
+              height. This app consumes the PokeAPI Restful API and returns its
+              data.
             </div>
           </div>
           {/*  */}
