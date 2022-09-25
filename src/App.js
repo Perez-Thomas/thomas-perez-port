@@ -20,6 +20,7 @@ import PayStubCalculatorImg from "./images/4.paystub-calculator.jpg";
 import CultureScreenPhotosImg from "./images/5.culture-screen-photography.jpg";
 import ToDoListAppImg from "./images/7.todolistapp.jpg";
 import WeatherAppImg from "./images/8. weather-app.jpg";
+import PokeAPIImg from "./images/9. pokedex - pokeAPI.jpg";
 import Photography from "./images/photography.jpg";
 import Videography from "./images/videography.jpg";
 import Camera from "./images/camera.png";
@@ -160,7 +161,11 @@ function App() {
           <div className="tiles">
             <div className="tileImage">
               <a href="https://retrogamecorner.netlify.app">
-                <img src={RetroCornerImg} alt="logo" className="ProjectImage" />
+                <img
+                  src={RetroCornerImg}
+                  alt=" showing retro gaming corner website"
+                  className="ProjectImage"
+                />
               </a>
               <p>
                 <p>
@@ -175,7 +180,7 @@ function App() {
               <a href="https://jacobsfitnessstudio.netlify.app">
                 <img
                   src={JacobsFitnessImg}
-                  alt="logo"
+                  alt=" showing jacobs fitness studio website"
                   className="ProjectImage"
                 />
               </a>
@@ -193,7 +198,7 @@ function App() {
               <a href="https://culture-screen.netlify.app">
                 <img
                   src={CultureScreenPhotosImg}
-                  alt="logo"
+                  alt=" showing culture screen website"
                   className="ProjectImage"
                 />
               </a>
@@ -212,7 +217,7 @@ function App() {
                 <img
                   src={AlgebraAppImg}
                   href="default.asp"
-                  alt="logo"
+                  alt=" showing algebra diagnostic website"
                   className="ProjectImage"
                 />
               </a>
@@ -230,7 +235,7 @@ function App() {
               <a href="https://newyork-paystub-calculator.netlify.app">
                 <img
                   src={PayStubCalculatorImg}
-                  alt="logo"
+                  alt=" showing new york paystub calculator website"
                   className="ProjectImage"
                 />
               </a>
@@ -245,7 +250,11 @@ function App() {
             </div>
             <div className="tileImage">
               <a href="https://studenttodolist.netlify.app">
-                <img src={ToDoListAppImg} alt="logo" className="ProjectImage" />
+                <img
+                  src={ToDoListAppImg}
+                  alt=" showing student to do list app"
+                  className="ProjectImage"
+                />
               </a>
               <p>
                 <p>
@@ -266,7 +275,11 @@ function App() {
           <div className="firstProject">
             <div class="BannerImage">
               <a href="https://weatherize-me.netlify.app">
-                <img src={WeatherAppImg} alt="logo" className="ProjectImage" />
+                <img
+                  src={WeatherAppImg}
+                  alt=" showing weather api website"
+                  className="ProjectImage"
+                />
               </a>
             </div>
             <div className="firstProjectDescription">
@@ -276,6 +289,27 @@ function App() {
               Enter the name of your city and receive the maximum, minimum, and
               current temperatures. App consumes the OpenWeatherMapAPI and
               returns its data.
+            </div>
+          </div>
+
+          <div className="firstProject">
+            <div class="BannerImage">
+              <a href="https://pokedex-api-app.netlify.app">
+                <img
+                  src={PokeAPIImg}
+                  alt=" showing pokemon api website"
+                  className="ProjectImage"
+                />
+              </a>
+            </div>
+            <div className="firstProjectDescription">
+              <div className="firstAppTitle">
+                <b>Pokedex App:</b>
+              </div>{" "}
+              Enter the name of Pokemon you are interested in learning more
+              about. Once the form is submitted you will receive their ID
+              number, body weight, height. This app consumes the PokeAPI Restful
+              API and returns its data.
             </div>
           </div>
           {/*  */}
