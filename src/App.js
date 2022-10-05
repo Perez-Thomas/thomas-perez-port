@@ -428,9 +428,11 @@ function App() {
           </FormControl>
 
           <div className="formSubmitButton">
-            <Button size="large" variant="contained" color="secondary">
-              Submit
-            </Button>
+            <a href="mailto:perezwebdevelopment@gmail.com">
+              <Button size="large" variant="contained" color="secondary">
+                Submit
+              </Button>
+            </a>
           </div>
         </div>
         <div className="callToAction">
@@ -450,7 +452,7 @@ function App() {
             <p>
               <b>© 2022 Perez Web Development, LLC</b>
             </p>
-            <p>"Where the client comes first."</p>
+            <p>"Where the client is first."</p>
           </div>
           <div></div>
         </div>
