@@ -13,6 +13,7 @@ import ComputerIcon from "@mui/icons-material/Computer";
 
 // images
 import BannerImage from "./images/myDesk.jpg";
+import CultureScreenHomepage from "./images/0.culture-screen-homepage.jpg";
 import AlgebraAppImg from "./images/1.algebra-app.jpg";
 import RetroCornerImg from "./images/2.retro-corner.jpg";
 import JacobsFitnessImg from "./images/3.jacobs-fitness-studio.jpg";
@@ -96,11 +97,12 @@ function App() {
           </Typography>
 
           <p className="MyStory">
-            My name is Thomas Perez. I am a front-end web developer. I enjoy
-            building websites, widgets and web applications. The main
-            technologies I use are: HTML, CSS, Javascript, and React. I also use
+            My name is Thomas Perez. I am a front-end web developer. I love
+            building websites, widgets and web applications. The technologies I
+            mainly use are: HTML, CSS, Javascript, and React. I also use
             WordPress, MaterialUI, Tailwind, and Bootstrap depending on the
-            needs of my clients.
+            needs of my clients. I edit my own media files using Photoshop and
+            Final Cut Pro.
           </p>
           <a
             className="LinkedInButton"
@@ -160,22 +162,23 @@ function App() {
           </div>
           <div className="tiles">
             <div className="tileImage">
-              <a href="https://retrogamecorner.netlify.app">
+              <a href="https://culturescreen.netlify.app">
                 <img
-                  src={RetroCornerImg}
-                  alt=" showing retro gaming corner website"
+                  src={CultureScreenHomepage}
+                  alt=" showing culture screen website"
                   className="ProjectImage"
                 />
               </a>
               <p>
                 <p>
-                  <b>Retro Gaming Corner:</b>
+                  <b>Culture Screen Homepage:</b>
                 </p>
-                An online repository of retro gaming consoles. Here you will
-                find all home gaming consoles. Each thumbnail works as a direct
-                link to its Wikipedia article.
+                This is the homepage of the Culture Screen YouTube channel.
+                Created using HTML, CSS, and Bootstrap. Outlines the products
+                and services sold by Culture Screen.
               </p>
             </div>
+
             <div className="tileImage">
               <a href="https://jacobsfitnessstudio.netlify.app">
                 <img
@@ -195,20 +198,20 @@ function App() {
             </div>
 
             <div className="tileImage">
-              <a href="https://culture-screen.netlify.app">
+              <a href="https://retrogamecorner.netlify.app">
                 <img
-                  src={CultureScreenPhotosImg}
-                  alt=" showing culture screen website"
+                  src={RetroCornerImg}
+                  alt=" showing retro gaming corner website"
                   className="ProjectImage"
                 />
               </a>
               <p>
                 <p>
-                  <b>Culture Screen Photo Gallery:</b>
+                  <b>Retro Gaming Corner:</b>
                 </p>
-                Here I created a website using html, css, and javascript.
-                Utilizes CSS AOS animations library. Demonstrates gallery of
-                images set up using css grid and on hover animations.
+                An online repository of retro gaming consoles. Here you will
+                find all home gaming consoles. Each thumbnail works as a direct
+                link to its Wikipedia article.
               </p>
             </div>
 
