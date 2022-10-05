@@ -18,7 +18,7 @@ import AlgebraAppImg from "./images/1.algebra-app.jpg";
 import RetroCornerImg from "./images/2.retro-corner.jpg";
 import JacobsFitnessImg from "./images/3.jacobs-fitness-studio.jpg";
 import PayStubCalculatorImg from "./images/4.paystub-calculator.jpg";
-import CultureScreenPhotosImg from "./images/5.culture-screen-photography.jpg";
+// import CultureScreenPhotosImg from "./images/5.culture-screen-photography.jpg";
 import ToDoListAppImg from "./images/7.todolistapp.jpg";
 import WeatherAppImg from "./images/8. weather-app.jpg";
 import PokeAPIImg from "./images/9. pokedex - pokeAPI.jpg";
